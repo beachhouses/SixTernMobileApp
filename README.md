@@ -42,18 +42,18 @@ Sistem keamanan dan alur kerja aplikasi **SixTern** dibagi menjadi 3 peran utama
 
 | Role Pengguna | Tanggung Jawab Utama | Fitur / Hak Akses |
 | :--- | :--- | :--- |
-| ** Mahasiswa** <br>*(Peserta Magang)* | Menjalankan kewajiban harian dan melaporkan progres magang secara mandiri. | • Absensi GPS harian<br>• Input & Edit Logbook<br>• Upload dokumen/tugas<br>• Monitoring grafik progres pribadi |
-| ** Pembimbing Lapangan** <br>*(Mentor Perusahaan)* | Mengawasi kinerja operasional harian peserta magang di tempat kerja. | • Approval / Revisi Logbook<br>• Validasi kehadiran GPS<br>• Input catatan evaluasi kerja<br>• Penilaian performa harian/mingguan |
-| ** Universitas / Prodi** <br>*(Dosen / Admin Kampus)* | Memantau kredibilitas akademik dan status kelulusan program magang mahasiswa. | • Monitoring rekapitulasi nasional/prodi<br>• Supervisi progress chart mahasiswa<br>• Validasi dan sinkronisasi nilai akhir akademik |
+| *Mahasiswa* <br>*(Peserta Magang)* | Menjalankan kewajiban harian dan melaporkan progres magang secara mandiri. | • Absensi GPS harian<br>• Input & Edit Logbook<br>• Upload dokumen/tugas<br>• Monitoring grafik progres pribadi |
+| *Pembimbing Lapangan* <br>*(Mentor Perusahaan)* | Mengawasi kinerja operasional harian peserta magang di tempat kerja. | • Approval / Revisi Logbook<br>• Validasi kehadiran GPS<br>• Input catatan evaluasi kerja<br>• Penilaian performa harian/mingguan |
+| *Universitas / Prodi* <br>*(Dosen / Admin Kampus)* | Memantau kredibilitas akademik dan status kelulusan program magang mahasiswa. | • Monitoring rekapitulasi nasional/prodi<br>• Supervisi progress chart mahasiswa<br>• Validasi dan sinkronisasi nilai akhir akademik |
 
 ---
 
 ## 4. Tech Stack (Teknologi yang Digunakan)
 
-*   **Frontend Mobile:** Flutter (Dart) / React Native
-*   **Backend API:** Node.js (Express) atau Laravel (PHP)
-*   **Database:** PostgreSQL / MySQL dengan struktur relasional multi-tenant
-*   **Geolocation:** Google Maps API / OpenStreetMap SDK
+*   *Frontend Mobile:* Flutter (Dart) / React Native
+*   *Backend API:* Node.js (Express) atau Laravel (PHP)
+*   *Database:* PostgreSQL / MySQL dengan struktur relasional multi-tenant
+*   *Geolocation:* Google Maps API / OpenStreetMap SDK
 
 ---
 
