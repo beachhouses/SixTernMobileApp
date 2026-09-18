@@ -7,7 +7,6 @@
 [![Status](https://img.shields.io/badge/Status-In%20Development-blue?style=for-the-badge&logo=git)](https://github.com/)
 [![Mobile Platform](https://img.shields.io/badge/Platform-Flutter%20%2F%20Android%20%2F%20iOS-orange?style=for-the-badge&logo=flutter)](https://github.com/)
 [![Backend](https://img.shields.io/badge/Backend-Node.js%20%2F%20Laravel-green?style=for-the-badge&logo=nodedotjs)](https://github.com/)
-[![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 
 </div>
 
