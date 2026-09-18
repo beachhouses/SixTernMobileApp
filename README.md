@@ -1,64 +1,75 @@
 <div align="center">
 
-# 🚀 SixTern (Internship Activity & Evaluation App)
+# 🚀 SIXTERN: INTERNSHIP ACTIVITY & EVALUATION APP
 
-*Aplikasi terintegrasi untuk pemantauan aktivitas, logbook, approval mentor, dan penilaian akhir magang.*
+*Platform Manajemen, Pemantauan, dan Evaluasi Magang Multi-Role Terintegrasi*
 
 [![Status](https://img.shields.io/badge/Status-In%20Development-blue?style=for-the-badge&logo=git)](https://github.com/)
-[![Tech Stack](https://img.shields.io/badge/Mobile-Flutter%20%2F%20React%20Native-orange?style=for-the-badge&logo=phone)](https://github.com/)
+[![Mobile Platform](https://img.shields.io/badge/Platform-Flutter%20%2F%20Android%20%2F%20iOS-orange?style=for-the-badge&logo=flutter)](https://github.com/)
+[![Backend](https://img.shields.io/badge/Backend-Node.js%20%2F%20Laravel-green?style=for-the-badge&logo=nodedotjs)](https://github.com/)
+[![License](https://img.shields.io/badge/License-MIT-purple?style=for-the-badge)](LICENSE)
 
 </div>
 
 ---
 
-## 📌 1. Penjelasan Aplikasi
+## 📖 1. Tentang Aplikasi (Overview)
 
-**SixTern** hadir bukan sekadar aplikasi pendaftaran magang biasa. Aplikasi ini difokuskan sebagai **platform pemantauan komprehensif** yang mencakup manajemen aktivitas harian peserta magang, *logbook* digital, sistem persetujuan (*approval*) dari mentor secara real-time, hingga rekapitulasi penilaian akhir magang secara transparan dan terstruktur.
+**SixTern** adalah solusi digital komprehensif yang dirancang untuk mendigitalisasi dan menyederhanakan ekosistem program magang. Aplikasi ini **bukan sekadar platform pendaftaran**, melainkan pusat pemantauan (*monitoring hub*) end-to-end yang menjembatani komunikasi antara **Mahasiswa (Peserta Magang), Pembimbing Lapangan (Perusahaan),** dan **Universitas/Prodi (Kampus)**.
 
-Dengan sistem yang terintegrasi, instansi maupun perusahaan dapat memantau produktivitas peserta magang secara <i>end-to-end</i> langsung dari genggaman.
-
----
-
-## 🎯 2. Rencana Fitur (Features & Capabilities)
-
-### 📱 Mobile Capability (Fitur Utama)
-*   **GPS Attendance:** Presensi kehadiran harian berbasis titik lokasi (GPS) untuk memastikan akurasi kehadiran peserta magang.
-*   **Aktivitas Harian & Logbook:** Pencatatan laporan harian kegiatan magang yang terintegrasi langsung dengan sistem *approval*.
-*   **Reminder & Notification:** Sistem pengingat otomatis untuk pengisian logbook dan jadwal penting lainnya.
-*   **File Upload:** Kemudahan mengunggah dokumen pendukung, laporan, atau bukti tugas secara langsung via mobile.
-
-### 📊 Output & Dashboard
-*   **Progress Chart:** Grafik visual untuk melihat tingkat penyelesaian tugas dan kehadiran peserta magang.
-*   **Approved Logbook:** Arsip logbook digital yang telah disetujui oleh mentor pembimbing.
-*   **System Activities:** Rekapitulasi penuh seluruh aktivitas sistem dan penilaian objektif akhir magang.
+Dengan pendekatan berbasis *mobile*, seluruh aktivitas harian, pelacakan kehadiran, persetujuan logbook, hingga rekapitulasi penilaian akhir dapat diakses secara transparan, *real-time*, dan akurat dari mana saja.
 
 ---
 
-## 👥 3. Penerapan Role (Hak Akses Pengguna)
+## 🎯 2. Rencana Fitur & Kapabilitas Sistem (Roadmap Features)
 
-Sistem manajemen pengguna pada aplikasi **SixTern** dibagi menjadi beberapa peran utama untuk memastikan alur kerja yang terstruktur:
+### 📱 Mobile Capability (Client-Side)
+*   📍 **GPS Attendance:** Sistem presensi harian berbasis geolokasi untuk memvalidasi titik kehadiran peserta magang di instansi/perusahaan.
+*   📝 **Daily Logbook & Activity:** Fitur pencatatan laporan kegiatan harian yang terhubung langsung dengan sistem antrean persetujuan.
+*   ⏰ **Smart Notification & Reminder:** Pengingat otomatis bagi peserta untuk menghindari keterlambatan pengisian logbook.
+*   📁 **Secure File Upload:** Kemudahan mengunggah dokumen pendukung, file tugas, atau laporan akhir secara langsung.
 
-1.  **Mahasiswa / Peserta Magang (Intern)**
-    *   Melakukan presensi harian berbasis GPS.
-    *   Mengisi dan mengirimkan *logbook* aktivitas harian.
-    *   Mengunggah file tugas/laporan magang.
-    *   Melihat grafik progres dan status penilaian akhir pribadi.
-2.  **Mentor / Pembimbing Lapangan**
-    *   Memeriksa dan memberikan *approval* (persetujuan/penolakan) terhadap logbook serta aktivitas harian peserta.
-    *   Memberikan evaluasi dan catatan harian/mingguan.
-3.  **Admin / PIC Pusat**
-    *   Mengelola data master pengguna (akun intern & mentor).
-    *   Mengawasi sistem secara keseluruhan (*system activities*).
-    *   Mengonfirmasi rekapitulasi nilai akhir magang.
+### 📊 Dashboard & System Output
+*   📈 **Progress Chart:** Visualisasi grafik perkembangan performa, tingkat kerajinan, dan penyelesaian tugas peserta.
+*   ✅ **Approved Logbook Archive:** Rekapitulasi arsip logbook yang telah divalidasi dan disetujui secara sah.
+*   ⚙️ **System Activity Audit:** Pencatatan riwayat aktivitas sistem untuk menjaga transparansi nilai dan kehadiran.
 
 ---
 
-## 🛠️ Tech Stack (Opsional)
-*   **Frontend Mobile:** Flutter / React Native
-*   **Backend:** Node.js / Laravel / Express
-*   **Database:** PostgreSQL / MySQL
+## 👥 3. Arsitektur Multi-Role & Hak Akses
+
+Sistem keamanan dan alur kerja aplikasi **SixTern** dibagi menjadi 3 peran utama (*multi-role*) agar koordinasi antar-instansi berjalan mulus:
+
+| Role Pengguna | Tanggung Jawab Utama | Fitur / Hak Akses |
+| :--- | :--- | :--- |
+| **👨‍🎓 Mahasiswa** <br>*(Peserta Magang)* | Menjalankan kewajiban harian dan melaporkan progres magang secara mandiri. | • Absensi GPS harian<br>• Input & Edit Logbook<br>• Upload dokumen/tugas<br>• Monitoring grafik progres pribadi |
+| **🧑‍💼 Pembimbing Lapangan** <br>*(Mentor Perusahaan)* | Mengawasi kinerja operasional harian peserta magang di tempat kerja. | • Approval / Revisi Logbook<br>• Validasi kehadiran GPS<br>• Input catatan evaluasi kerja<br>• Penilaian performa harian/mingguan |
+| **🏛️ Universitas / Prodi** <br>*(Dosen / Admin Kampus)* | Memantau kredibilitas akademik dan status kelulusan program magang mahasiswa. | • Monitoring rekapitulasi nasional/prodi<br>• Supervisi progress chart mahasiswa<br>• Validasi dan sinkronisasi nilai akhir akademik |
 
 ---
-<div align="center">
-  <sub>Built with ❤️ by SixTern Team</sub>
-</div>
+
+## 🛠️ 4. Tech Stack (Teknologi yang Digunakan)
+
+*   **Frontend Mobile:** Flutter (Dart) / React Native
+*   **Backend API:** Node.js (Express) atau Laravel (PHP)
+*   **Database:** PostgreSQL / MySQL dengan struktur relasional multi-tenant
+*   **Geolocation:** Google Maps API / OpenStreetMap SDK
+
+---
+
+## ⚙️ 5. Cara Menjalankan Project (Installation)
+
+Jika Anda ingin menjalankan atau berkontribusi pada pengembangan project ini, ikuti langkah-langkah di bawah ini:
+
+```bash
+# 1. Clone repository ini
+git clone [https://github.com/username-kamu/SixTern.git](https://github.com/username-kamu/SixTern.git)
+
+# 2. Masuk ke direktori project
+cd SixTern
+
+# 3. Install dependencies (contoh untuk Flutter / Node.js)
+flutter pub get   # atau npm install
+
+# 4. Jalankan aplikasi
+flutter run       # atau npm start
